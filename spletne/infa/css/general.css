@@ -1,0 +1,48 @@
+
+body{
+    background-color: #E8E8E8;
+}
+h1{
+    font-family: Baghdad;
+    font-size: 300%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    max-width: 80%;
+    font-size: 125%;
+}
+p[data-pannel*="#"]{
+    padding: 20px;
+}
+ul.normal li{
+    font-size: 125%;
+}
+p[data-pannel*="#"] a{
+    text-decoration: none;
+    font-size: 100%;
+}
+.text-img{
+    height: 380px;
+}
+
+.small-text{
+    font-size: 90%;
+}
+
+#modra{
+    color: #109DBE;
+}
+#zelena{
+    color: #CDE751;
+}
+#oranzna{
+    color: #EFA907;
+}
+#rdeca{
+    color: #D76D5B;
+}
+

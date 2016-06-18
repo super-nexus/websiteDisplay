@@ -1,0 +1,436 @@
+/*----------------------- osnovno ---------------------------*/
+body {
+	background-color: #efefef !important;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 91%;
+}
+.page-wrap:after {
+  display: block;
+}
+
+/* ---------------------- navigacija ------------------------ */
+nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 16.2%;
+	margin-right: 18%;
+	display: inline;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	color: #9d0a16;
+}
+
+
+/* ---------------------- jumbotron-index ----------------------- */
+.jumbotron {
+	background-image: url(../slike/prva.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:100px;
+	margin-left: 19.5%;
+}
+
+.jumbotron .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+.jumbotron .container p {
+	color: #ffffff;
+	text-shadow: 1px 1px #000000;
+	font-size: 17px;
+	font-family: 'open sans', sans-serif;
+	font-weight: 700;
+}
+
+/* ---------------------- jumbotron-danajsni ----------------------- */
+.jumbotron2 {
+	background-image: url(../slike/danasnji2.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron2 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron2 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+
+/* ---------------------- jumbotron-samopodoba ----------------------- */
+.jumbotron3 {
+	background-image: url(../slike/samopodoba2.jpeg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron3 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron3 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+
+/* ---------------------- jumbotron-zgodovina ----------------------- */
+.jumbotron4 {
+	background-image: url(../slike/ura.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron4 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron4 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+/* ---------------------- jumbotron-vplivi ----------------------- */
+.jumbotron5 {
+	background-image: url(../slike/mediji2.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron5 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron5 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+/* ---------------------- jumbotron-nacini ----------------------- */
+.jumbotron6 {
+	background-image: url(../slike/jabolko.jpeg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron6 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron6 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+/* ---------------------- jumbotron-anketa ----------------------- */
+.jumbotron7 {
+	background-image: url(../slike/anketa1.jpeg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron7 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron7 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+
+/* ---------------------- jumbotron-viri ----------------------- */
+.jumbotron8 {
+	background-image: url(../slike/knjige.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron8 .container {
+	position: relative;
+	top:150px;
+	margin-left: 19.5%;
+}
+
+.jumbotron8 .container h1 {
+	color: #fffdfd;
+	font-weight: 800;
+	text-shadow: 1px 2px #000000;
+	font-family: 'lato';
+	padding-right: 20%;
+	font-size: 60px;
+}
+/* ------------------ razdelek z besedilom ------------------*/
+
+.besedilo {
+	background-color: #f7f7f7;
+	margin-top: 2px;
+	padding: 6px 21% 10px 21%;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.besedilo h2 {
+	padding-left: 15px;
+	padding-top: 6px;
+	font-family: 'candara', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+p {
+	font-size: 14.2px;
+	font-family: 'open sans', sans-serif;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.besedilo ul, ol {
+	font-size: 14.2px;
+	font-family: 'open sans', sans-serif;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+/* -------------------- tabela ------------------------*/
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color:#ccc;
+	margin:0px auto;
+}
+.tg td{
+	font-family:'open sans', sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#ccc;
+	color:#333;
+	background-color: transparent;
+}
+.tg th{
+	font-family:'open sans', sans-serif;
+	font-size:14.2px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#ccc;
+	color:#333;
+	background-color:#f0f0f0;
+}
+.tg .tg-sppf{
+	font-size:14px;
+	font-family:'open sans', sans-serif;
+	background-color:#b28683;
+	vertical-align:top;
+}
+.tg .tg-jo6m{
+	font-weight:bold;
+	font-size:14px;
+	font-family:'open sans', sans-serif;
+	background-color:#b28683;
+	text-align:center;
+	vertical-align:top;
+}
+.tg .tg-znhl{
+	font-size:14px;
+	font-family:'open sans', sans-serif;
+	vertical-align:top;
+}
+.tg .tg-3zvv{
+	font-size:14px;
+	font-family:'open sans', sans-serif;
+	text-align:center;
+	vertical-align:top;
+}
+/* -------------------- slike -------------------------*/
+
+.slike {
+	background-color: #d1caca;
+	margin-top: 0;
+	padding: 15px 21% 15px 21%;
+	border-bottom: 1px solid #777;
+	border-top: 1px solid #aaa;
+}
+
+.slike img {
+	position: relative;
+	display: inline;
+	height: 300px;
+	width: auto;
+	border: 1px solid #552222;
+	border-radius: 2px;
+}
+
+/* ------------------- divider ------------------------ */
+
+.divider {
+	background-color: #410409;
+	border: 1px solid #000;
+	margin: -8px 19% 0px 19%;
+	height: 47px;
+	box-shadow: 2px 2px 2px #868686;
+	border-radius: 2px 2px 3px 3px;
+}
+
+.divider h2 {
+	padding: 0px;
+	margin: 2px 0 0 0;
+	color: #dbdbdb;
+	font-family: 'candara', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+/* --------------------- teme --------------------------- */
+
+.teme {
+	background-color: #e5e5e5;
+	margin: 2px 21% 40px 21%;
+	padding: 10px 12% 10px 20px;
+	border: 1px solid #cccccc;
+	position: relative;
+}
+
+.teme h3 {
+	color: #552222;
+	padding-left: 5px;
+}
+
+.teme img {
+	position: absolute;
+	right: -1.9%;
+	bottom: -13%;
+	width: 18%;
+	height: auto;
+	border: 1px solid #552222;
+	border-radius: 2px;
+}
+
+.teme a {
+	padding-left: 40px;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+
+/* ------------------------ teme2 ----------------------- */
+
+.teme2 {
+	background-color: #e5e5e5;
+	margin: 15px 36.8% 20px 21%;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #cccccc;
+	position: relative;
+}
+
+.teme2 h3 {
+	color: #552222;
+	padding-left: 5px;
+	display: inline; 
+}
+
+.teme2 a {
+	padding-left: 50px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+/* ------------------------ noga ------------------------ */
+
+footer {
+	height: 70px;
+	background-color: #111111;
+	border-top: 2px solid #333;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+
+}
+
+footer p {
+	color: #aaa;
+	display: inline;
+	font-size: 12px;
+}

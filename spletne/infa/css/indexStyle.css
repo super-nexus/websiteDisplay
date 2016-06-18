@@ -1,0 +1,26 @@
+
+
+img{
+    margin-left: 100px;
+    margin-top: 60px;
+    height: 350px;
+    width: 275px;
+}
+p{
+    max-width: 560px;
+    font-size: 1.5em;
+    padding-right: 0;
+}
+h5{
+    font-size: 2.2em;
+}
+h1 {
+    font-size:3.5em;
+}
+
+h4, h1{
+    text-align: center;
+}
+body{
+    background-color: #E8E8E8;
+}
